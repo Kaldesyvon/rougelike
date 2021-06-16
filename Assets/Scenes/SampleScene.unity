@@ -1527,6 +1527,7 @@ MonoBehaviour:
   bullet: {fileID: 5054351512545617206, guid: 0a841420198011442acd8b3ebc413f53, type: 3}
   gunBarrel: {fileID: 996978793}
   timeBetweenShots: 0.2
+  spriteRenderer: {fileID: 1874606725}
 --- !u!4 &1388520055
 Transform:
   m_ObjectHideFlags: 0

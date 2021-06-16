@@ -38,6 +38,8 @@ public class PlayerHealthController : MonoBehaviour
 
             invicCount = damageInvicLength;
 
+            PlayerController.instance.spriteRenderer.color = new Color(1f, 1f, 1f, 0.5f);
+
             if (health <= 0)
             {
                 PlayerController.instance.gameObject.SetActive(false);

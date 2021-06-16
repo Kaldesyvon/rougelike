@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
     public Transform gunBarrel;
     public float timeBetweenShots;
     private float shotCounter;
+    public SpriteRenderer spriteRenderer;
     
 
     private void Awake()
